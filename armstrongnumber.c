@@ -3,8 +3,8 @@
 
 int main()
 {
-    int n, sum, i, t, a;
-    for (i = 1; i <= 500; i++)
+    int n, sum, i, t, a;           // AN ARMSTRONG NUMBER IS DEFINED AS A NUMBER WHOSE SUM OF CUBES OF INDIVIDUAL DIGITS IS EQUAL TO THE NUMBER ITSELF 
+    for (i = 1; i <= 500; i++)    // PROGRAM TO PRINT ALL ARMSTRONG NUMBERS FROM 1 TO 500 
     {
         t = i;
         sum = 0;
